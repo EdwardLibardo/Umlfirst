@@ -1,0 +1,9 @@
+
+>squid:S1068")Remove this unused "total" private field.(“ÕÔĞ
+Fsquid:S1068",Remove this unused "modified" private field.(ÊšÁ°ûÿÿÿÿ
+fsquid:S00116"PRename this field "Items" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÈş÷
+?squid:S1068"*Remove this unused "status" private field.(œƒó
+1squid:S1220""Move this file to a named package.
+@squid:S1068"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ
+Lsquid:S1068"2Remove this unused "shippingAdress" private field.(ª®ªÆûÿÿÿÿ
+]squid:HiddenFieldCheck"8Rename "total" which hides the field declared at line 9.(š‚•Ÿúÿÿÿÿ
