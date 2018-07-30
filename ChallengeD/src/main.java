@@ -6,9 +6,7 @@ public class main {
 
     public static void main(String[] args) {
 
-
-
-//Customer
+        //Customer
         System.out.println("Insert the customer´s number to find dates");
         int input;
         Scanner inputscanner = new Scanner(System.in);
@@ -33,6 +31,7 @@ public class main {
             FirstCustomer.setPassword("1231");
             FirstCustomer.CustomerDates1();
         }
+        else {System.out.println("There are not more options");}
 
 
     }

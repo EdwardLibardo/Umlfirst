@@ -57,7 +57,7 @@ public class Customer {
     }
 
     void CustomerDates1 () {
-        System.out.println("\n\t\tThis is the Edward's account");
+       // System.out.println("\n\t\tThis is the Edward's account");
         System.out.println("First customer's id " + id);
         System.out.println("First customer's name " + name);
         System.out.println("First customer's contact " + contact);
