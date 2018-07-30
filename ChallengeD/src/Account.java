@@ -14,9 +14,9 @@ public class Account {
     private List <PaymentMethod> methods;
     private List<Address> addresses;
 
-    public Account(int id, Customer customer, ShoppingCart cart, AccountStatus status, List<PaymentMethod> methods, List<Address> addresses) {
+    public Account(Customer customer) {
         this.id = id;
-        this.customer = customer;
+        this.customer = this.customer;
         this.cart = cart;
         this.status = status;
         this.methods = methods;

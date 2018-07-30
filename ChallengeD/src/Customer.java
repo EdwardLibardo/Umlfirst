@@ -1,3 +1,5 @@
+import javax.naming.Name;
+
 public class Customer {
     private int id;
     private String name;
@@ -5,11 +7,13 @@ public class Customer {
     private String userName;
     private String password;
 
-    public Customer(int id, String name, String userName, String password) {
+    public Customer() {
         this.id = id;
         this.name = name;
+        this.contact =contact;
         this.userName = userName;
         this.password = password;
+
     }
 
     public int getId() {
@@ -51,4 +55,16 @@ public class Customer {
     public void setContact(int contact) {
         this.contact = contact;
     }
+
+    void CustomerDates1 () {
+        System.out.println("\n\t\tThis is the Edward's account");
+        System.out.println("First customer's id " + id);
+        System.out.println("First customer's name " + name);
+        System.out.println("First customer's contact " + contact);
+        System.out.println("First customer's username " + userName);
+        System.out.println("First customer's password " + password);
+
+    }
+
 }
+
