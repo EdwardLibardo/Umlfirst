@@ -22,4 +22,15 @@ public class LineItem {
     public Product getProduct() {
         return product;
     }
+
+
+    public String items(){
+
+        return "Quantity " +  quantity + " Price " + price + " product " + product.getName();
+
+        //System.out.println("First customer's username " + userName);
+        //System.out.println("First customer's password " + password);
+
+    }
+
 }

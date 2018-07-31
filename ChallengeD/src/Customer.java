@@ -65,6 +65,15 @@ public class Customer {
         System.out.println("First customer's password " + password);
 
     }
+    void CustomerDates2 () {
+        // System.out.println("\n\t\tThis is the Edward's account");
+        System.out.println("Second customer's id " + id);
+        System.out.println("Second customer's name " + name);
+        System.out.println("Second customer's contact " + contact);
+        System.out.println("Second customer's username " + userName);
+        System.out.println("Second customer's password " + password);
+
+    }
 
 }
 
