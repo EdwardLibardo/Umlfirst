@@ -74,7 +74,7 @@ public class main {
         else {System.out.println("There are not more options");}
 
 
-
+        System.out.println(new Address(1,"Hola","chao","Bogota","Colombia",true).getAddress());
     }
 
 }
